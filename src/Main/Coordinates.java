@@ -13,11 +13,7 @@ public class Coordinates {
 
     @Override
     public String toString() {
-        return "Coordinates{" +
-                "x=" + x +
-                ", y=" + y +
-                ", cardinal=" + cardinal +
-                '}';
+        return x + " "+ y + " "+ cardinal;
     }
 
     public int getY() {
