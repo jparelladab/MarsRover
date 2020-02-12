@@ -11,26 +11,30 @@ public class Coordinates {
         this.cardinal = cardinal;
     }
 
+    @Override
+    public String toString() {
+        return "Coordinates{" +
+                "x=" + x +
+                ", y=" + y +
+                ", cardinal=" + cardinal +
+                '}';
+    }
+
     public int getY() {
         return y;
     }
-
     public int getX() {
         return x;
     }
-
     public char getCardinal() {
         return cardinal;
     }
-
     public void setCardinal(char cardinal) {
         this.cardinal = cardinal;
     }
-
     public void setY(int y) {
         this.y = y;
     }
-
     public void setX(int x) {
         this.x = x;
     }

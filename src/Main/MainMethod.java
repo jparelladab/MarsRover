@@ -12,6 +12,7 @@ public class MainMethod {
         MarsRover roverOne = new MarsRover(missionInput.roverOneCoordinates, missionPlateau);
         MarsRover roverTwo = new MarsRover(missionInput.roverTwoCoordinates, missionPlateau);
         roverOne.move(missionInput.roverOneMovements);
+       // System.out.println("Rover TWO");
         roverTwo.move(missionInput.roverTwoMovements);
     }
 }
