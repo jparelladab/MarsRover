@@ -15,7 +15,6 @@ public class Coordinates {
     public String toString() {
         return x + " "+ y + " "+ cardinal;
     }
-
     public int getY() {
         return y;
     }
