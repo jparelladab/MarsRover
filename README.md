@@ -1,5 +1,5 @@
 # MarsRover
-A rover has landed on a Plateau in Mars! 
+A squad of robotic rovers are to be landed by NASA on a plateau on Mars. This plateau, which is curiously rectangular, must be navigated by the rovers so that their on-board cameras can get a complete view of the surrounding terrain to send back to Earth.
 
 This OOP design consists of 5 classes and 1 input text file:<br/>
 - Input class: where the data from InputFile.txt gets modelled into different objects that will be passed later into other class objects.<br/>
@@ -9,7 +9,7 @@ This OOP design consists of 5 classes and 1 input text file:<br/>
 - MainMethod class: where Input, Plateau, and MarsRover instances get created so the method move() for each rover can be called.<br/>
 - InputFile.txt: is located inside the src file, but out of the Main package where the classes are.<br/>
 
-To use this model it is only needed to add some input inside the InputFile.txt along the following guidelines:<br/>
+To use this model it is only needed to add/modify the **InputFile.txt** along the following guidelines:<br/>
 - Plateau: the first line of input is the upper-right coordinates of the plateau, the lowerleft coordinates are assumed to be 0,0.<br/>
 - The rover's coordinates: the rest of the input is information pertaining to the rovers that have been deployed. Each rover has two lines of input. The first line gives the rover’s position. The position is made up of two integers and a letter separated by spaces, corresponding to the x and y co-ordinates and the rover’s orientation.
 - The rover's movements: the second line is a series of instructions telling the rover how to explore the plateau. <br/>
