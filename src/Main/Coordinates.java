@@ -15,6 +15,11 @@ public class Coordinates {
     public String toString() {
         return x + " "+ y + " "+ cardinal;
     }
+    public void setCoordinates(int x, int y, char c) {
+        this.setX(x);
+        this.setY(y);
+        this.setCardinal(c);
+    }
     public int getY() {
         return y;
     }

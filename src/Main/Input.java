@@ -32,6 +32,7 @@ public class Input {
                     fourthLine[2]);
             this.roverTwoMovements = input.nextLine().replaceAll(" ", "").toCharArray();
             input.close();
+            System.out.println("Input correctly fetched from file.");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
